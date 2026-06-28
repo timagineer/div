@@ -1,5 +1,5 @@
-# repo template
+# DIV
 
-description
+All your &lt;DIV&gt;s are belong to us
 
-[tmpl.timagineer.com](https://tmpl.timagineer.com)
+[div.timagineer.com](https://div.timagineer.com)
