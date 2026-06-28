@@ -1,5 +1,5 @@
-# DIV
+# div
 
-All your &lt;DIV&gt;s are belong to us
+All your &lt;div&gt;s are belong to us
 
 [div.timagineer.com](https://div.timagineer.com)
