@@ -1,3 +1,176 @@
-<body style="display:grid;place-items:center;min-height:100dvh">
-  <h1 style="font-family:ui-monospace,monospace;text-align:center;">index of {subdomain}.timagineer.com</h1>
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>
+        &lt;DIV&gt;DIV!&lt;DIV/&gt;
+    </title>
+    <style>
+        * {
+            outline: .5px gray dashed;
+            margin: 0;
+        }
+
+        :root {
+            color-scheme: light dark;
+            --bg: light-dark(white, black);
+            --fg: light-dark(black, white);
+            --fs-1: .9rem;
+            --fs-2: .75rem;
+            font-family: ui-monospace, monospace;
+        }
+
+        body {
+            background-color: var(--bg);
+            color: gray;
+        }
+
+        footer {
+            font-size: var(--fs-2);
+            padding-block: .5rem;
+        }
+
+        a {
+            color: currentColor;
+            text-decoration-color: var(--fg);
+            text-underline-offset: .25ex;
+            text-decoration-thickness: .05ex;
+        }
+
+        a:hover {
+            color: var(--fg);
+        }
+
+        h1 {
+            color: var(--fg);
+        }
+
+        code {
+            font-size: var(--fs-1);
+        }
+
+        pre span {
+            color: var(--fg);
+        }
+
+        .center {
+            box-sizing: content-box;
+            margin-inline: auto;
+            max-inline-size: 90vw;
+            text-align: center;
+        }
+
+        .cover {
+            display: flex;
+            flex-direction: column;
+            min-block-size: 100vh;
+        }
+
+        .cover>* {
+            margin-block: 0;
+        }
+
+        .cover> :first-child:not(code) {
+            margin-block-start: 0;
+        }
+
+        .cover> :last-child:not(code) {
+            margin-block-end: 0;
+        }
+
+        .cover>code {
+            margin-block: auto;
+        }
+
+        .stack-x {
+            display: flex;
+            flex-wrap: wrap;
+            gap: var(--space, .5rem);
+            justify-content: center;
+            align-items: center;
+        }
+
+        @keyframes ticker {
+            14% {
+                content: "Wix";
+            }
+
+            28% {
+                content: "Figma";
+            }
+
+            42% {
+                content: "Webflow";
+            }
+
+            56% {
+                content: "Squarespace";
+            }
+
+            70% {
+                content: "Semplice";
+            }
+
+            84% {
+                content: "UXFolio";
+            }
+
+            100% {
+                content: "Framer";
+            }
+        }
+
+        .ticker::after {
+            animation: ticker 1.5s infinite;
+            display: inline-block;
+            background-color: red;
+            color: white;
+            content: "Wix";
+            font-weight: bold;
+            padding-inline: .25em;
+            text-transform: uppercase;
+            letter-spacing: .15em;
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+
+            *,
+            *::before,
+            *::after {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+            }
+        }
+    </style>
+    <script defer src=https://assets.timagineer.com/src/date.js></script>
+</head>
+
+<body class="center cover">
+    <h1>&lt;div&gt;<sup>n<sup><a href="https://www.timpish.com">t</a>h</sup></sup></h1>
+    <code>
+        <pre>
+&lt;div&gt;
+    &lt;div&gt;
+        &lt;div&gt;
+            &lt;div&gt;
+                &lt;div&gt;
+                    &lt;div&gt;
+                        &lt;div&gt;
+&lt;div&gt;<span>DIVs by <span class="ticker"></span></span>&lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+        </pre>
+    </code>
+    <footer class="stack-x">
+        <span>Inspired by <a href="https://heydonworks.com">Heydon Pickering</a>&apos;s</span>
+        <span><a href="https://www.youtube.com/watch?v=0wqnc2U9Fyc">Introducing: Webbed Sites</a></span>
+        <span>&copy;&apos;<time></time> <a href="https://timagineer.com">Timagineer</a></span>
+    </footer>
 </body>
+
+</html>
